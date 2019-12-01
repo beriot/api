@@ -10,19 +10,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#lifestyle">Lifestyle</a>
+                    <a class="nav-link" href="index.php#lifestyle">Lifestyle</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#hive">Rûche</a>
+                    <a class="nav-link" href="index.php#hive">Rûche</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#queen">Reine</a>
+                    <a class="nav-link" href="index.php#queen">Reine</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#cause">Causes</a>
+                    <a class="nav-link" href="index.php#cause">Causes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#gallery">Vidéos</a>
+                    <a class="nav-link" href="index.php#gallery">Vidéos</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -32,3 +32,4 @@
         </div>
     </nav>
 </header>
+

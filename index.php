@@ -116,7 +116,7 @@
         </div>
     </div>
 
-    <div class="winter"">
+    <div class="winter">
         <p>Taux de mortalité durant l'hiver :</p>
     </div>
     <div class="progress" style="width: 90%;">
@@ -125,11 +125,11 @@
     </div>
 </div>
 
-<div class="galery" id="galery">
+<div class="gallery" id="gallery">
     <center><h2>Les abeilles en vidéos</h2></center>
-    <div class="galeryVideos">
+    <div class="galleryVideos">
         <?php
-        $API_key    = 'AIzaSyDJLp29i0mJkck4imBSpmVqUh9Uh99V9lE';
+        $API_key    = 'AIzaSyBxC80TZNyOjgjVxbFxnuxdojAeJyZuPUo';
         $channelID  = 'UC4manpkVsRoBBrQFBQqVJbA';
         $maxResults = 3;
 
@@ -149,9 +149,10 @@
         }
         ?>
     </div>
-    <center><a href="galery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
+    <center><a href="gallery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
 </div>
 
 
 
 <?php include "footer.php"?>
+
