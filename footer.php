@@ -1,6 +1,6 @@
 <!-- Footer -->
-<footer style="background-color: #FFC107; height: 50px;display: flex;justify-content: center;padding-top: 10px;">
-    <a href="" style="color:black;margin-right: 20px;">Mentions legales</a>
+<footer>
+    <a href="">Mentions legales</a>
     <p>©2019 LuPauRay</p>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

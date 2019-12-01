@@ -31,9 +31,9 @@
         </a>
     </div>
 
-    <div class="container-fluid pl-0 pr-0" id="lifestyle">
-        <center><h2 style="font-size: 40px; padding-top: 40px; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Lifestyle</h2></center>
-        <p style="font-size:23px; padding: 30px 75px; text-align: justify; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Les abeilles vivent en colonie. Elles
+    <div class="container-fluid pl-0 pr-0 bee--lifestyle" id="lifestyle">
+        <center><h2>Lifestyle</h2></center>
+        <p>Les abeilles vivent en colonie. Elles
             forment une société très organisée, un peu comme une grande entreprise.
             Autour de la reine, dont la tâche unique est de pondre et pondre encore, jusqu’à 50 000 ouvrières s’activent
             avec ardeur. Dans la ruche, seules les quelques centaines de faux-bourdons paressent ! Durant leur
@@ -52,14 +52,14 @@
 
 
 
-<div class="container-fluid pl-0 pr-0" id="ruche">
+<div class="container-fluid pl-0 pr-0 bee--hive" id="hive">
     <div class="row no-gutters">
         <div class="col-12 col-md-6  pl0 pr0">
-            <img src="img/ruche.jpg" style="width: 100%">
+            <img src="img/ruche.jpg">
         </div>
-        <div class="col-12 col-md-6" style="background-color: #212529; color: white">
-            <center><h2 style="font-size: 40px; padding-top: 40px; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">La Rûche</h2></center>
-            <p style="font-size: 23px; padding: 30px 70px 60px 70px; text-align: justify; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif; margin-bottom: 0px">Une ruche est une structure presque
+        <div class="col-12 col-md-6">
+            <center><h2>La Rûche</h2></center>
+            <p>Une ruche est une structure presque
                 fermée abritant une colonie d'abeilles. L’intérieur de la ruche est composé de rayons formés par des
                 cellules hexagonales de cire d'abeille. Les abeilles utilisent ces cellules pour le stockage de la
                 nourriture (miel et pollen), et pour le renouvellement de la population (œufs, larves et nymphes).
@@ -68,27 +68,25 @@
     </div>
 </div>
 
-<div class="container-fluid pl-0 pr-0" id="reine">
+<div class="container-fluid pl-0 pr-0 bee--queen" id="queen">
     <div class="row no-gutters">
         <div class="col-12 col-md-6">
-            <center><h2 style="font-size: 40px; padding-top: 40px; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">La Reine</h2></center>
-            <p style="font-size: 23px; padding: 30px 70px 60px 70px; text-align: justify; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">
-                La gelée royale est une substance produite par les abeilles ouvrières, grâce à des glandes contenues
+            <center><h2>La Reine</h2></center>
+            <p>La gelée royale est une substance produite par les abeilles ouvrières, grâce à des glandes contenues
                 dans leur tête. Elle est gélatineuse, de couleur blanchâtre.
                 La gelée royale apporte à la larve une substance qui permet de modifier son ADN pour en faire une
                 abeille reine et non ouvrière.
             </p>
         </div>
         <div class="col-12 col-md-6 pl0 pr0">
-            <img src="img/queen.jpg" style="width: 100%">
+            <img src="img/queen.jpg">
         </div>
     </div>
 
     <div>
-        <div class="container-fluid pl-0 pr-0" id="cause">
-            <center><h2 style="font-size: 40px; padding-top: 40px;background-color: #212529; color: white; margin-bottom: 0; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Les Causes</h2></center>
-            <p style="font-size:23px; padding: 30px 75px; text-align: justify; background-color: #212529; color: white; margin-bottom: 0; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">
-                Nous avons été sensibilisés au rôle des abeilles dans l'écosystème. En effet, les abeilles favorisent la
+        <div class="container-fluid pl-0 pr-0 bee--cause" id="cause">
+            <center><h2>Les Causes</h2></center>
+            <p>Nous avons été sensibilisés au rôle des abeilles dans l'écosystème. En effet, les abeilles favorisent la
                 pollinisation des plantes sauvages et cultivées et elles sont sensibles aux traitements phytosanitaires.
                 Depuis quelques années le sort des abeilles est devenu inquiétant : leur taux de surmortalité atteint 30
                 à
@@ -100,19 +98,17 @@
     </div>
 </div>
 
-<div class="container-fluid pl-0 pr-0" id="progress" style="padding: 40px; margin-left: 13%; width: 80%">
+<div class="container-fluid pl-0 pr-0 bee--progress" id="progress">
     <div class="use">
-        <p style="margin-bottom: 10px; font-size: 20px; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">
-            Utilité de l'espèce :</p>
+        <p>Utilité de l'espèce :</p>
     </div>
     <div class="progress" style="width: 90%;">
         <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0"
              aria-valuemax="100"></div>
     </div>
 
-    <div class="danger" style="padding-top: 30px;">
-        <p style="margin-bottom: 10px; font-size: 20px; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">
-            Risque d'extinction :</p>
+    <div class="danger">
+        <p>Risque d'extinction :</p>
     </div>
     <div class="progress" style="width: 90%;">
         <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
@@ -120,9 +116,8 @@
         </div>
     </div>
 
-    <div class="hiver" style="padding-top: 30px;">
-        <p style="margin-bottom: 10px; font-size: 20px;font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Taux
-            de mortalité durant l'hiver :</p>
+    <div class="winter"">
+        <p>Taux de mortalité durant l'hiver :</p>
     </div>
     <div class="progress" style="width: 90%;">
         <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0"
@@ -130,9 +125,9 @@
     </div>
 </div>
 
-<div class="galerie" id="galerie" style="background-color: #212529; color: white; padding: 40px;">
-    <center><h2 style="font-size: 40px; padding-top: 10px;padding-bottom: 40px;background-color: #212529; color: white; margin-bottom: 0; font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Les abeilles en vidéos</h2></center>
-    <div class="galerieVideos" style="display: flex; justify-content: center">
+<div class="galery" id="galery">
+    <center><h2>Les abeilles en vidéos</h2></center>
+    <div class="galeryVideos">
         <?php
         $API_key    = 'AIzaSyDJLp29i0mJkck4imBSpmVqUh9Uh99V9lE';
         $channelID  = 'UC4manpkVsRoBBrQFBQqVJbA';
@@ -154,7 +149,7 @@
         }
         ?>
     </div>
-    <center><a href="up.php" class="btn btn-warning" style="margin-top: 15px">Ajouter une vidéo a son compte</a></center>
+    <center><a href="galery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
 </div>
 
 

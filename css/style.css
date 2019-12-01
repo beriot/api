@@ -1,0 +1,102 @@
+.nav-item a {
+    font-family: trebuchet ms,arial,tahoma,verdana,sans-serif;
+}
+
+.bee--lifestyle, .bee--hive, .bee--queen, .bee--cause, .bee--progress, .galerie{
+    font-family: trebuchet ms,arial,tahoma,verdana,sans-serif;
+}
+.bee--lifestyle h2, .bee--cause h2{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.bee--lifestyle p{
+    font-size:23px;
+    padding: 30px 75px;
+    text-align: justify;
+}
+
+.bee--hive{
+    background-color: #212529;
+    color: white
+}
+.bee--hive h2, .bee--queen h2{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.bee--hive p, .bee--queen p{
+    font-size: 23px;
+    padding: 10px 70px 30px 70px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+.bee--queen p{
+    font-size: 23px;
+    padding: 30px 70px 60px 70px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.bee--hive img, .bee--queen img{
+    width: 100%;
+}
+
+.bee--cause h2, .bee--cause p{
+    background-color: #212529;
+    color: white;
+    margin-bottom: 0;
+}
+.bee--cause p{
+    font-size:23px;
+    padding: 30px 75px;
+    text-align: justify;
+}
+
+.bee--progress{
+    padding: 40px;
+    margin-left: 13%;
+    width: 80%;
+}
+.bee--progress .use p, .bee--progress .danger p, .bee--progress .winter p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.bee--progress .danger, .bee--progress .winter{
+    padding-top: 30px;
+}
+
+.galery{
+    background-color: #212529;
+    color: white;
+    padding: 40px;
+}
+.galery h2{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #212529;
+    color: white;
+    margin-bottom: 0;
+}
+.galeryVideos{
+    display: flex;
+    justify-content: center;
+}
+
+.btn--moreVideos{
+    margin-top: 15px;
+}
+
+
+footer{
+    background-color: #FFC107;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer a{
+    color:black;
+    margin-right: 20px;
+}
