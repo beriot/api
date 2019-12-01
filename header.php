@@ -10,19 +10,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#lifestyle" style="font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Lifestyle</a>
+                    <a class="nav-link" href="#lifestyle">Lifestyle</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#ruche" style="font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Rûche</a>
+                    <a class="nav-link" href="#hive">Rûche</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#reine" style="font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Reine</a>
+                    <a class="nav-link" href="#queen">Reine</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#cause" style="font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Causes</a>
+                    <a class="nav-link" href="#cause">Causes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#galerie" style="font-family: trebuchet ms,arial,tahoma,verdana,sans-serif">Vidéos</a>
+                    <a class="nav-link" href="#galery">Vidéos</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

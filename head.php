@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <!-- HEAD -->
 <head>
@@ -9,5 +9,10 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="shortcut icon" type="image/jpg" href="img"/>
 </head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/icon.jpg"/>
+</head>
+
