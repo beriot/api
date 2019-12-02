@@ -15,15 +15,17 @@ $videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v
 
 <?php include "headerGallery.php" ?>
 
-<div class="galleryChaine">
+
+<div class="galleryChanel">
+    <h1 class="title--video">Notre chaîne favorites sur le sujet : </h1>
     <div class="row">
         <?php
 
         foreach ($videoList->items as $item) {
             if (isset($item->id->videoId)) {
-                echo '<div class="youtube-video">
-                <iframe width="280" height="150" src="https://www.youtube.com/embed/' . $item->id->videoId . '" frameborder="0" allowfullscreen></iframe>
-                <h2>' . $item->snippet->title . '</h2>
+                echo '<div class="youtube-video-gallery col-4">
+                <iframe width="350" height="210" src="https://www.youtube.com/embed/' . $item->id->videoId . '" frameborder="0" allowfullscreen></iframe>
+                <h2 class="galleryChanel--title">' . $item->snippet->title . '</h2>
             </div>';
             }
         }
