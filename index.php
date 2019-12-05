@@ -144,7 +144,7 @@
         }
         ?>
     </div>
-    <center><a href="gallery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
+    <center><a href="gallery.php" class="btn btn-warning btn--moreVideos" target="_blank">Voir plus de vidéos</a></center>
 </div>
 <div class="pollution" id="pollutionw">
     <h1 class="pollution--title">Les indices de pollution en temps réel</h1>
@@ -185,6 +185,14 @@
         <div class="city lille">
 
         </div>
+    </div>
+</div>
+<div class="weather" id="weather">
+    <h2>Tu veux savoir si les abeilles de ta ville ont les pattes mouillées ?</h2>
+    <div class="weather--flex">
+        <img src="img/sun.png" class="weather--image">
+        <a href="meteo.php" class="btn btn-warning btn--weather" target="_blank">Voir la météo de ma ville</a>
+        <img src="img/rain.png" class="weather--image">
     </div>
 </div>
 

@@ -139,7 +139,30 @@ padding: 60px 0 0 10%;
 .pollution--stat--info{
     color: #FFC107;
 }
+.weather{
+    background-color: #212529;
+}
+.weather h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.weather--flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.weather--image{
+    width: 180px;
+    padding: 40px 0;
 
+}
+.btn--weather{
+    height: 50px;
+    font-size: 22px;
+    margin-top:100px ;
+}
 footer{
     background-color: #FFC107;
     height: 50px;
