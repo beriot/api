@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
     <a href="">Mentions legales</a>
-    <p>©2019 LuPauRay</p>
+    <p>©2019 LuPau</p>
 
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

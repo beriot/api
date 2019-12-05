@@ -1,11 +1,7 @@
-
-.nav-item a {
+body{
     font-family: trebuchet ms,arial,tahoma,verdana,sans-serif;
 }
 
-.bee--lifestyle, .bee--hive, .bee--queen, .bee--cause, .bee--progress, .galerie{
-    font-family: trebuchet ms,arial,tahoma,verdana,sans-serif;
-}
 .bee--lifestyle h2, .bee--cause h2{
     font-size: 40px;
     padding-top: 40px;
@@ -56,6 +52,10 @@
     padding: 40px;
     margin-left: 13%;
     width: 80%;
+}
+.bee--progress h2{
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 .bee--progress .use p, .bee--progress .danger p, .bee--progress .winter p{
     margin-bottom: 10px;
@@ -115,7 +115,7 @@
 .pollution--city{
     display: flex;
 flex-wrap: wrap;
-padding: 5% 0 0 10%;
+padding: 60px 0 0 10%;
 }
 .city{
     width: 20%;
@@ -127,6 +127,16 @@ padding: 5% 0 0 10%;
 }
 .pollution--question{
     padding-top: 10px;
+    color: #FFC107;
+}
+.pollution--info{
+    display: flex;
+    justify-content: center;
+}
+.pollution--stat{
+    padding: 20px ;
+}
+.pollution--stat--info{
     color: #FFC107;
 }
 

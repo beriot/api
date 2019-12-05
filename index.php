@@ -93,6 +93,7 @@
 </div>
 
 <div class="container-fluid pl-0 pr-0 bee--progress" id="progress">
+    <center><h2>Attention elles sont en danger !</h2></center>
     <div class="use">
         <p>Utilité de l'espèce :</p>
     </div>
@@ -145,9 +146,14 @@
     </div>
     <center><a href="gallery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
 </div>
-<div class="pollution" id="pollution">
+<div class="pollution" id="pollutionw">
     <h1 class="pollution--title">Les indices de pollution en temps réel</h1>
     <h2 class="pollution--question">Dans quelle grande ville de France les abeilles sont-elles le mieux ?</h2>
+    <div class="pollution--info">
+        <h5 class="pollution--stat">inférieur à 50 <span class="pollution--stat--info">Bon</span></h5>
+        <h5 class="pollution--stat">entre 50 et 90 <span class="pollution--stat--info">Moyen</span></h5>
+        <h5 class="pollution--stat">supérieur à 100 <span class="pollution--stat--info">Critique</span></h5>
+    </div>
     <div class="pollution--city">
         <div class="city paris">
 
