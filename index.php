@@ -151,6 +151,40 @@
     </div>
     <center><a href="gallery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
 </div>
+<div class="pollution">
+    <h1 class="pollution--title">Les indices de pollution</h1>
+    <h2 class="pollution--question">Dans quelle grande ville de France les abeilles sont-elles le mieux ?</h2>
+    <div class="paris">
+
+    </div>
+    <div class="marseille">
+
+    </div>
+    <div class="lyon">
+
+    </div>
+    <div class="toulouse">
+
+    </div>
+    <div class="nice">
+
+    </div>
+    <div class="nantes">
+
+    </div>
+    <div class="montpellier">
+
+    </div>
+    <div class="strasbourg">
+
+    </div>
+    <div class="bordeaux">
+
+    </div>
+    <div class="lille">
+
+    </div>
+</div>
 
 
 
