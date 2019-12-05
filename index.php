@@ -55,7 +55,7 @@
 <div class="container-fluid pl-0 pr-0 bee--hive" id="hive">
     <div class="row no-gutters">
         <div class="col-12 col-md-6  pl0 pr0">
-            <img src="img/ruche.jpg">
+            <img src="img/ruche2.jpg">
         </div>
         <div class="col-12 col-md-6">
             <center><h2>La Rûche</h2></center>

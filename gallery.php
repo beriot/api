@@ -34,4 +34,3 @@ $videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v
 </div>
 
 <?php include "footer.php" ?>
-
