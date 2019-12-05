@@ -145,7 +145,7 @@
     </div>
     <center><a href="gallery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
 </div>
-<div class="pollution">
+<div class="pollution" id="pollution">
     <h1 class="pollution--title">Les indices de pollution en temps réel</h1>
     <h2 class="pollution--question">Dans quelle grande ville de France les abeilles sont-elles le mieux ?</h2>
     <div class="pollution--city">
