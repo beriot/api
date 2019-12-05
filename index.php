@@ -1,10 +1,9 @@
-
-<?php include "head.php"?>
+<?php include "head.php" ?>
 
 
 <body>
 
-<?php include "header.php"?>
+<?php include "header.php" ?>
 
 <!-- Content -->
 
@@ -45,11 +44,6 @@
         </p>
     </div>
 </div>
-
-
-
-
-
 
 
 <div class="container-fluid pl-0 pr-0 bee--hive" id="hive">
@@ -129,21 +123,21 @@
     <center><h2>Les abeilles en vidéos</h2></center>
     <div class="galleryVideos">
         <?php
-        $API_key    = 'AIzaSyBxC80TZNyOjgjVxbFxnuxdojAeJyZuPUo';
-        $channelID  = 'UC4manpkVsRoBBrQFBQqVJbA';
+        $API_key = 'AIzaSyBxC80TZNyOjgjVxbFxnuxdojAeJyZuPUo';
+        $channelID = 'UC4manpkVsRoBBrQFBQqVJbA';
         $maxResults = 3;
 
         $videoList = json_decode(file_get_contents(
-            'https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$channelID.
-            '&maxResults='.$maxResults.
-            '&key='.$API_key.''
+            'https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=' . $channelID .
+            '&maxResults=' . $maxResults .
+            '&key=' . $API_key . ''
         ));
 
-        foreach($videoList->items as $item){
-            if(isset($item->id->videoId)){
+        foreach ($videoList->items as $item) {
+            if (isset($item->id->videoId)) {
                 echo '<div class="youtube-video" style="display:block; padding: 0 40px;">
-        <iframe width="380" height="220" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allowfullscreen></iframe>
-        <h2 style="font-size: 15px">'. $item->snippet->title .'</h2>
+        <iframe width="380" height="220" src="https://www.youtube.com/embed/' . $item->id->videoId . '" frameborder="0" allowfullscreen></iframe>
+        <h2 style="font-size: 15px">' . $item->snippet->title . '</h2>
     </div>';
             }
         }
@@ -152,41 +146,42 @@
     <center><a href="gallery.php" class="btn btn-warning btn--moreVideos">Voir plus de vidéos</a></center>
 </div>
 <div class="pollution">
-    <h1 class="pollution--title">Les indices de pollution</h1>
+    <h1 class="pollution--title">Les indices de pollution en temps réel</h1>
     <h2 class="pollution--question">Dans quelle grande ville de France les abeilles sont-elles le mieux ?</h2>
-    <div class="paris">
+    <div class="pollution--city">
+        <div class="city paris">
 
-    </div>
-    <div class="marseille">
+        </div>
+        <div class="city marseille">
 
-    </div>
-    <div class="lyon">
+        </div>
+        <div class="city lyon">
 
-    </div>
-    <div class="toulouse">
+        </div>
+        <div class="city toulouse">
 
-    </div>
-    <div class="nice">
+        </div>
+        <div class="city nice">
 
-    </div>
-    <div class="nantes">
+        </div>
+        <div class="city nantes">
 
-    </div>
-    <div class="montpellier">
+        </div>
+        <div class="city montpellier">
 
-    </div>
-    <div class="strasbourg">
+        </div>
+        <div class="city strasbourg">
 
-    </div>
-    <div class="bordeaux">
+        </div>
+        <div class="city bordeaux">
 
-    </div>
-    <div class="lille">
+        </div>
+        <div class="city lille">
 
+        </div>
     </div>
 </div>
 
 
-
-<?php include "footer.php"?>
+<?php include "footer.php" ?>
 

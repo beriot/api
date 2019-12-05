@@ -109,6 +109,27 @@
     padding-top: 80px;
 }
 
+.pollution{
+    margin-top: 5%;
+}
+.pollution--city{
+    display: flex;
+flex-wrap: wrap;
+padding: 5% 0 0 10%;
+}
+.city{
+    width: 20%;
+    padding-bottom: 5%;
+}
+.pollution--title, .pollution--question{
+    display: flex;
+    justify-content: center;
+}
+.pollution--question{
+    padding-top: 10px;
+    color: #FFC107;
+}
+
 footer{
     background-color: #FFC107;
     height: 50px;

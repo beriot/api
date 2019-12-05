@@ -119,7 +119,7 @@ function info(data){
 
     let show = document.querySelector('.paris');
 
-    show.innerHTML = '<h2 class="cityName">Paris</h2><div>'  + data.data.time.s + ' <br>' + data.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Paris</h2><div>' + data.data.aqi + '</div>';
 
 }
 
@@ -127,7 +127,7 @@ function infoMarseille(dataMarseille){
 
     let show = document.querySelector('.marseille');
 
-    show.innerHTML = '<h2 class="cityName">Marseille</h2><div>'  + dataMarseille.data.time.s + ' <br>' + dataMarseille.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Marseille</h2><div>' + dataMarseille.data.aqi + '</div>';
 
 }
 
@@ -135,7 +135,7 @@ function infoLyon(dataLyon){
 
     let show = document.querySelector('.lyon');
 
-    show.innerHTML = '<h2 class="cityName">Lyon</h2><div>' + dataLyon.data.time.s + ' <br>' + dataLyon.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Lyon</h2><div>' + dataLyon.data.aqi + '</div>';
 
 }
 
@@ -143,7 +143,7 @@ function infoToulouse(dataToulouse){
 
     let show = document.querySelector('.toulouse');
 
-    show.innerHTML = '<h2 class="cityName">Toulouse</h2><div>' + dataToulouse.data.time.s + ' <br>' + dataToulouse.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Toulouse</h2><div>' + dataToulouse.data.aqi + '</div>';
 
 }
 
@@ -151,7 +151,7 @@ function infoNice(dataNice){
 
     let show = document.querySelector('.nice');
 
-    show.innerHTML = '<h2 class="cityName">Nice</h2><div>' + dataNice.data.time.s + ' <br>' + dataNice.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Nice</h2><div>' + dataNice.data.aqi + '</div>';
 
 }
 
@@ -159,7 +159,7 @@ function infoNantes(dataNantes){
 
     let show = document.querySelector('.nantes');
 
-    show.innerHTML = '<h2 class="cityName">Nantes</h2><div>' + dataNantes.data.time.s + ' <br>' + dataNantes.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Nantes</h2><div>' + dataNantes.data.aqi + '</div>';
 
 }
 
@@ -167,7 +167,7 @@ function infoMontpellier(dataMontpellier){
 
     let show = document.querySelector('.montpellier');
 
-    show.innerHTML = '<h2 class="cityName">Montpellier</h2><div>' + dataMontpellier.data.time.s + ' <br>' + dataMontpellier.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Montpellier</h2><div>' + dataMontpellier.data.aqi + '</div>';
 
 }
 
@@ -175,7 +175,7 @@ function infoStrasbourg(dataStrasbourg){
 
     let show = document.querySelector('.strasbourg');
 
-    show.innerHTML = '<h2 class="cityName">Strasbourg</h2><div>' + dataStrasbourg.data.time.s + ' <br>' + dataStrasbourg.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Strasbourg</h2><div>' + dataStrasbourg.data.aqi + '</div>';
 
 }
 
@@ -183,7 +183,7 @@ function infoBordeaux(dataBordeaux){
 
     let show = document.querySelector('.bordeaux');
 
-    show.innerHTML = '<h2 class="cityName">Bordeaux</h2><div>' + dataBordeaux.data.time.s + ' <br>' + dataBordeaux.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Bordeaux</h2><div>' + dataBordeaux.data.aqi + '</div>';
 
 }
 
@@ -191,7 +191,7 @@ function infoLille(dataLille){
 
     let show = document.querySelector('.lille');
 
-    show.innerHTML = '<h2 class="cityName">Lille</h2><div>' + dataLille.data.time.s + ' <br>' + dataLille.data.aqi + '</div>';
+    show.innerHTML = '<h2 class="cityName">Lille</h2><div>' + dataLille.data.aqi + '</div>';
 
 }
 
