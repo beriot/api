@@ -1,5 +1,7 @@
 
 
+
+
 body {
     font-family: 'trebuchet MS';
     text-align: center;
@@ -8,18 +10,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #212529;
 }
 
 h1{
     font-size: 3em;
+    color: #fff;
 }
 
 i {
+    padding:10px;
     font-size: 5em;
     line-height: 3em;
+    color: #fff;
 }
 
 h2 {
+    color: #fff;
     font-size: 2em;
 }
-
